@@ -13,7 +13,7 @@ const Leerpalabras = () => {
         const fileContent = e.target.result;
 
         // Procesar el contenido del archivo para extraer solo las palabras y separarlas por coma
-        const palabrasExtraidas = fileContent.match(/[A-Z a-z 0-9]+/g); // Extraer solo las palabras
+        const palabrasExtraidas = fileContent.match(/[A-Za-z0-9]+/g); // Extraer solo las palabras
         if (palabrasExtraidas) {
           const palabrasSeparadasPorComa = palabrasExtraidas.join(','); // Separar las palabras por coma
           setPalabras(palabrasSeparadasPorComa);
