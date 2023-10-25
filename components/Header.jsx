@@ -16,6 +16,9 @@ const Header = () => {
           <div className="list-item">
           <li className='cursor-pointer hover:text-white hover:bg-yellow-600'><Link href={'/leer'}>Leer archivo</Link></li>
           </div>
+          <div className="list-item">
+          <li className='cursor-pointer hover:text-white hover:bg-yellow-600'><Link href={'/leerpalabras'}>Leer palabras</Link></li>
+          </div>
 
         </ul>
       </nav>
