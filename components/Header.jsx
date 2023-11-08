@@ -19,6 +19,19 @@ const Header = () => {
           <div className="list-item">
           <li className='cursor-pointer hover:text-white hover:bg-yellow-600'><Link href={'/leerpalabras'}>Leer palabras</Link></li>
           </div>
+          <div className="list-item">
+          <li className='cursor-pointer hover:text-white hover:bg-yellow-600'><Link href={'/comentarios'}>No leer comentarios</Link></li>
+          </div>
+          <div className="list-item">
+          <li className='cursor-pointer hover:text-white hover:bg-yellow-600'><Link href={'/reservadas'}>Palabras reservadas</Link></li>
+          </div>
+          <div className="list-item">
+          <li className='cursor-pointer hover:text-white hover:bg-yellow-600'><Link href={'/operadores'}>Operadores</Link></li>
+          </div>
+          <div className="list-item">
+          <li className='cursor-pointer hover:text-white hover:bg-yellow-600'><Link href={'/proyecto'}>Proyecto</Link></li>
+          </div>
+
 
         </ul>
       </nav>
